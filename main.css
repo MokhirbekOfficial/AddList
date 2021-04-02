@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4F8F9;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.wrapper{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.inp{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.btn{
+    outline: none;
+    border: 2px solid #27A9F8;
+    background-color: #27A9F8;
+    color: white;
+    text-align: center;
+    height: 38px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.btn:hover{
+    background-color: white;
+    color: #27A9F8;
+}
+.btn:active{
+    opacity: 0.5;
+}
+.list-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+.item{
+    width: 300px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5)
+}
+.warpper2{
+    padding: 20px 10px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.warpper2:hover{
+    overflow: auto;
+}
+.flag{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: block;
+}
+.countyName{
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+	width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #F2F2F2;
+	border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #6A96D8;
+	border-radius: 10px;
+  }

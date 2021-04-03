@@ -92,6 +92,7 @@ p{
     height: 200px;
     overflow: hidden;
     text-overflow: clip;
+    word-break: break-all;
 }
 .warpper2:hover{
     overflow: auto;
@@ -118,4 +119,18 @@ p{
   ::-webkit-scrollbar-thumb {
 	background: #6A96D8;
 	border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 450px){
+      .container{
+          width: 450px;
+      }
+      .wrapper{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .inp{
+          margin-bottom: 20px;
+      }
   }
